@@ -1,5 +1,5 @@
 --- 
-- hosts: mywebservers
+- hosts: 172.31.6.191
   become: true
   tasks:
   - name: install webserver
