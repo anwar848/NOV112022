@@ -1,5 +1,5 @@
 --- 
-- hosts: mywebsers
+- hosts: mywebservers
   become: true
   tasks:
   - name: install webserver
